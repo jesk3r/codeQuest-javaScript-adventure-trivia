@@ -1,0 +1,75 @@
+[{
+  "question": "What does the 'typeof' operator in JavaScript return when applied to an array?",
+  "option1": "'array'",
+  "option2": "'object'",
+  "option3": "'array'",
+  "option4": "'function'",
+  "correctOption": 2
+},{
+  "question": "Which built-in method can be used to merge two or more arrays in JavaScript?",
+  "option1": "'combine()'",
+  "option2": "'concat()'",
+  "option3": "'merge()'",
+  "option4": "'push()'",
+  "correctOption": 2
+},{
+  "question": "What does the '=== ' operator do in JavaScript?",
+  "option1": "Compares the values for equality, including their types.",
+  "option2": "Assigns a value to a variable.",
+  "option3": "Performs bitwise addition.",
+  "option4": "Compares the values for equality, without considering their types.",
+  "correctOption": 1
+},{
+  "question": "Which keyword is used to declare a variable in JavaScript?",
+  "option1": "'var'",
+  "option2": "'let'",
+  "option3": "'const'",
+  "option4": "'variable'",
+  "correctOption": 1
+},{
+  "question": "What is the purpose of the 'push()' method in JavaScript arrays?",
+  "option1": "Removes the last element from an array.",
+  "option2": "Adds a new element at the beginning of an array.",
+  "option3": "Adds a new element at the end of an array.",
+  "option4": "Merges two arrays together.",
+  "correctOption": 3
+},{
+  "question": "What does the 'NaN' acronym stand for in JavaScript?",
+  "option1": "'Not a Number'",
+  "option2": "'New Algorithmic Notation'",
+  "option3": "'Negative Assignment Null'",
+  "option4": "'Null and None'",
+  "correctOption": 1
+},{
+  "question": "Which function is used to parse a string and return a floating-point number in JavaScript?",
+  "option1": "'parseInt()'",
+  "option2": "'parseFloat()'",
+  "option3": "'parseDouble()'",
+  "option4": "'toNumber()'",
+  "correctOption": 2
+},{
+  "question": "In JavaScript, which loop is designed to work with arrays?",
+  "option1": "'for loop'",
+  "option2": "'while loop'",
+  "option3": "'do...while loop'",
+  "option4": "'for...in loop'",
+  "correctOption": 4
+},{
+  "question": "What is the purpose of the 'querySelector()' method in JavaScript?",
+  "option1": "To select and modify HTML attributes.",
+  "option2": "To add new elements to the DOM.",
+  "option3": "To fetch data from an API.",
+  "option4": "To select and manipulate elements in the DOM.",
+  "correctOption": 4
+},{
+  "question": "Which event is triggered when an HTML input element loses focus?",
+  "option1": "'click'",
+  "option2": "'focus'",
+  "option3": "'blur'",
+  "option4": "'change'",
+  "correctOption": 3
+}
+
+
+  
+]

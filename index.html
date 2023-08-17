@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <a href="">View Highscore</a>
+            <p id="timer">Timer: 60</p>
+        </div>
+        
+    </header>
+
+    <main>
+
+        <section id="start-menu">
+            <h1>Coding Quiz Challange</h1>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi officia, quis perferendis omnis repudiandae, consectetur quod ad ex vel labore laborum voluptatem quaerat cumque adipisci animi tenetur voluptates quasi. Nisi.</p>
+            <button id="start-Quiz" disabled>Start Quiz</button>
+            <p id="Loading">Loading questions.....</p>
+        </section>
+
+        
+        <section class="display-none" id="quiz">
+            <h2 id="Question"> Questions to be posed</h2>
+            
+            <div id="questionContainers">
+                <button class="option" id="option1" data-option="1">option1</button>
+                <button class="option" id="option2" data-option="2">option2</button>
+                <button class="option" id="option3" data-option="3">option3</button>
+                <button class="option" id="option4" data-option="4">option4</button>
+            </div>
+
+        </section>
+
+       
+        <section id='finished-page' class="display-none">
+            <h2>All done!</h2>
+            <p id="finalScoreText">Your final score is: 0</p>
+            Your initals <input id="inital-Input" type="text">
+            <button id = 'submitScore'>Sumbit</button>
+
+        </section>
+
+
+        <section id="HighScoreScreen" class="display-none">
+            <h2>HighScore</h2>
+            
+            <ol id="highScoreList">
+                
+            </ol>
+
+            <div>
+                <button id="goBack">Go Back</button>
+                <button id="clearHighScore">Clear Highsocre</button>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+</html>
