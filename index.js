@@ -268,6 +268,16 @@ function submitScore(){
     highScoreScrren.className = ''
 }
 
+
+function viewHighScore(){
+    //disable current screen
+    startQuizSection.className = 'display-none'
+
+    highScoreScrren.className = ""
+
+}
+
+
 questionContainer.addEventListener("click", optionSelect)
 
 startQuizButton.addEventListener('click', startQuiz)
@@ -278,7 +288,7 @@ clearHighScore.addEventListener('click',clearHighScoreHistory )
 
 submitScorebutton.addEventListener('click', submitScore)
 
-
+highscoreLink.addEventListener('click', viewHighScore)
 
 
 init()
