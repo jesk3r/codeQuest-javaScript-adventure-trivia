@@ -1,100 +1,43 @@
-# 04 Web APIs: Code Quiz
+# CodeQuest: JavaScript Adventure Trivia
 
-## Your Task
+Welcome to CodeQuest: JavaScript Adventure Trivia! 🚀 Test your JavaScript knowledge and embark on an exciting journey through the world of coding and scripting. This interactive quiz game is designed to challenge your understanding of JavaScript concepts while providing an enjoyable learning experience.
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+## About
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+CodeQuest is a fun and engaging quiz game built with JavaScript. Whether you're a beginner learning the ropes or an experienced developer looking to refresh your skills, this trivia game has something for everyone. Explore a variety of JavaScript topics, from data types and functions to loops and events.
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+## Features
 
-## User Story
+- 🎮 Interactive Gameplay: Dive into the captivating world of JavaScript trivia through an interactive and user-friendly interface.
+- 🌟 Multiple Choice Questions: Test your knowledge with a diverse set of multiple-choice questions on JavaScript fundamentals.
+- ⏱️ Time Challenge: Answer questions against the clock to keep the excitement high and challenge yourself.
+- 🏆 Score Tracking: Keep track of your progress and compete with friends to see who can achieve the highest score.
+- 🌐 Web-Based: Access the game directly from your web browser, making it easy to play anytime, anywhere.
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## How to Play
 
-## Acceptance Criteria
+1. Clone or download the repository to your local machine.
+2. Open the `index.html` file in your preferred web browser.
+3. Start the quiz and answer each question by selecting the correct option.
+4. Your score will be calculated based on the number of correct answers and the time taken.
+5. Aim for a high score and challenge your friends to beat it!
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+## Contributing
 
-## Mock-Up
+Contributions to CodeQuest are welcome! Whether you want to add new questions, improve the user interface, or enhance the game mechanics, feel free to submit pull requests.
 
-The following animation demonstrates the application functionality:
+To contribute:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request with a detailed description of your changes.
 
-## Grading Requirements
+## License
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-# codeQuest-javaScript-adventure-trivia
+Are you ready to embark on a CodeQuest and test your JavaScript knowledge? Get started now and challenge yourself with exciting JavaScript trivia!
