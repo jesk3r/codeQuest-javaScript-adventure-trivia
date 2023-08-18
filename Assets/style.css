@@ -1,10 +1,39 @@
 
-header{
-    
+.navigation{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1{
+    text-align: center;
 }
 
 .display-none{
     display: none;
+}
+
+#start-menu p{
+    display: flex;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#start-menu div{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 
 

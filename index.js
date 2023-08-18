@@ -106,6 +106,8 @@ function timer(){
 function startQuiz(event){
     //start a internval
     // console.log('zxcvzcvzcxv')
+
+    highscoreLink.className = 'display-none'
     
     
     timerInterval = setInterval(timer,1000)
@@ -207,6 +209,8 @@ function addToHighScoreList(inital, score){
 
 function goToQuizScreen(){
     //stop displaying  highScoreScrren
+  
+
     highScoreScrren.className = 'display-none'
     
     startQuizSection.className = ''

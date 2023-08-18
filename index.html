@@ -9,7 +9,7 @@
 <body>
     
     <header>
-        <div>
+        <div class="navigation">
             <a id="view-highscore" href="#">View Highscore</a>
             <p id="timer">Timer: 60</p>
         </div>
@@ -21,15 +21,18 @@
         <section id="start-menu">
             <h1>Coding Quiz Challange</h1>
             
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi officia, quis perferendis omnis repudiandae, consectetur quod ad ex vel labore laborum voluptatem quaerat cumque adipisci animi tenetur voluptates quasi. Nisi.</p>
-            <button id="start-Quiz" disabled>Start Quiz</button>
+            <p style="max-width: 60ch; ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi officia, quis perferendis omnis repudiandae, consectetur quod ad ex vel labore laborum voluptatem quaerat cumque adipisci animi tenetur voluptates quasi. Nisi.</p>
+            <div>
+                <button id="start-Quiz" disabled>Start Quiz</button>
+            </div>
+           
             <p id="Loading">Loading questions.....</p>
         </section>
 
         
         <section class="display-none" id="quiz">
             <h2 id="Question"> Questions to be posed</h2>
-            
+
             <div id="questionContainers">
                 <button class="option" id="option1" data-option="1">option1</button>
                 <button class="option" id="option2" data-option="2">option2</button>
