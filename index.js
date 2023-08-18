@@ -25,6 +25,8 @@ var clearHighScore = document.querySelector('#clearHighScore')
 
 var initalInput = document.querySelector('#inital-Input')
 
+var highscoreLink = document.querySelector('#view-highscore')
+
 var questionQ = []
 
 var performanceHistory = []
@@ -113,7 +115,7 @@ function startQuiz(event){
 
     questionQ = [];
 
-    // console.log('zxcvzcvzcxv')
+
 
 
     //get a set of questions 
@@ -275,6 +277,9 @@ goBackButton.addEventListener('click', goToQuizScreen )
 clearHighScore.addEventListener('click',clearHighScoreHistory )
 
 submitScorebutton.addEventListener('click', submitScore)
+
+
+
 
 init()
 
