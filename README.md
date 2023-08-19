@@ -21,7 +21,7 @@ CodeQuest is a fun and engaging quiz game built with JavaScript. Whether you're 
 3. Your score will be calculated based on the number of correct answers and the time taken.
 4. Aim for a high score and challenge your friends to beat it!
 
-## Contributin
+## Screenshots
 
 ![Finished Quiz](Assets/Screenshots/sc_FinishedQuiz.png)
 
