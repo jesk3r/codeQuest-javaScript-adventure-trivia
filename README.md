@@ -21,21 +21,16 @@ CodeQuest is a fun and engaging quiz game built with JavaScript. Whether you're 
 3. Your score will be calculated based on the number of correct answers and the time taken.
 4. Aim for a high score and challenge your friends to beat it!
 
-## Contributing
+## Contributin
 
-Contributions to CodeQuest are welcome! Whether you want to add new questions, improve the user interface, or enhance the game mechanics, feel free to submit pull requests.
+![Finished Quiz](Assets/Screenshots/sc_FinishedQuiz.png)
 
-To contribute:
+![Highscore](Assets/Screenshots/sc_HighcoreScreen.png)
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Submit a pull request with a detailed description of your changes.
+![Quiz section](Assets/Screenshots/sc_QuizSection.png)
 
-## License
+![TitleScreen](Assets/Screenshots/sc_TitleScreen.png)
 
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
