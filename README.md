@@ -16,11 +16,10 @@ CodeQuest is a fun and engaging quiz game built with JavaScript. Whether you're 
 
 ## How to Play
 
-1. Clone or download the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
-3. Start the quiz and answer each question by selecting the correct option.
-4. Your score will be calculated based on the number of correct answers and the time taken.
-5. Aim for a high score and challenge your friends to beat it!
+1. Go to The website: https://jesk3r.github.io/codeQuest-javaScript-adventure-trivia/
+2. Start the quiz and answer each question by selecting the correct option.
+3. Your score will be calculated based on the number of correct answers and the time taken.
+4. Aim for a high score and challenge your friends to beat it!
 
 ## Contributing
 
