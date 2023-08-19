@@ -73,20 +73,36 @@ function optionSelect(event){
 
             //go to next question
 
-            
+            timerDispaly.textContent = "Timer: " + timerCount
             
         }else{
             timerCount -= 5
-
-            timerDispaly.textContent = 'Timer: ' + timerCount
-
-            goToNextQuestion()
-
-            //if the timer is lesser than go to 
             
+            if(timerCount <= 0){
+                //end quiz
+                //go to the end screen
+                
+                //******* add the end quiz thing here */
+                clearInterval(timerInterval)
+        
+                //close
+                quizSection.className = 'display-none'
+                finshedQuizPage.className = ''
 
-            console.log('wrong')
-            //go to next questoin
+                timerDispaly.textContent = 'Timer: ' + 0
+        
+            }else{
+                timerDispaly.textContent = 'Timer: ' + timerCount
+
+                goToNextQuestion()
+    
+                //if the timer is lesser than go to 
+                
+    
+                console.log('wrong')
+                //go to next questoin
+            }
+
         }
     }
 }
@@ -96,10 +112,17 @@ function timer(){
 
     timerDispaly.textContent = 'Timer: ' + timerCount 
     
-    if(timerCount === 0){
+    if(timerCount <= 0){
         //end quiz
         //go to the end screen
+
+        //******* add the end quiz thing here */
         clearInterval(timerInterval)
+
+        //close
+        quizSection.className = 'display-none'
+        finshedQuizPage.className = ''
+
     }
 }
 
@@ -112,7 +135,7 @@ function startQuiz(event){
     
     timerInterval = setInterval(timer,1000)
 
-    timerCount = 70
+    timerCount = 30
     timerDispaly.textContent = "Timer: " + timerCount
 
     questionQ = [];

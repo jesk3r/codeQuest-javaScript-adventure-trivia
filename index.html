@@ -31,13 +31,20 @@
 
         
         <section class="display-none" id="quiz">
-            <h2 id="Question"> Questions to be posed</h2>
+            <h2 id="Question" > Questions to be posed</h2>
 
             <div id="questionContainers">
-                <button class="option" id="option1" data-option="1">option1</button>
-                <button class="option" id="option2" data-option="2">option2</button>
-                <button class="option" id="option3" data-option="3">option3</button>
-                <button class="option" id="option4" data-option="4">option4</button>
+              
+
+               <div>
+                    <button class="option" id="option1" data-option="1">option1</button>
+        
+                    <button class="option" id="option2" data-option="2">option2</button>
+                    
+                    <button class="option" id="option3" data-option="3">option3</button>
+                   
+                    <button class="option" id="option4" data-option="4">option4</button>
+               </div>
             </div>
 
         </section>
@@ -45,23 +52,28 @@
        
         <section id='finished-page' class="display-none">
             <h2>All done!</h2>
-            <p id="finalScoreText">Your final score is: 0</p>
-            Your initals <input id="inital-Input" type="text">
-            <button id = 'submitScore'>Sumbit</button>
-
+            
+            <div>
+                <p id="finalScoreText">Your final score is: 0</p>
+                Your initals <input id="inital-Input" type="text">
+                <button id = 'submitScore'>Sumbit</button>
+            </div>
+           
         </section>
 
 
         <section id="HighScoreScreen" class="display-none">
             <h2>HighScore</h2>
             
-            <ol id="highScoreList">
-                
-            </ol>
-
             <div>
-                <button id="goBack">Go Back</button>
-                <button id="clearHighScore">Clear Highsocre</button>
+                <ol id="highScoreList">
+                
+                </ol>
+
+                <div>
+                    <button id="goBack">Go Back</button>
+                    <button id="clearHighScore">Clear Highsocre</button>
+                </div>
             </div>
 
 
